@@ -54,12 +54,16 @@ Giao diện được thiết kế độc lập, nhúng trực tiếp vào DOM tr
 Quy trình cài đặt chỉ cần thực hiện một lần duy nhất theo 3 bước sau:
 
 ### Bước 1: Cài đặt tiện ích Tampermonkey
-Tampermonkey là tiện ích mở rộng an toàn và phổ biến nhất thế giới trên trình duyệt web, cho phép người dùng chạy các script hỗ trợ công việc.
-1. Mở trình duyệt Google Chrome hoặc Cốc Cốc trên máy tính.
-2. Truy cập vào đường link chính thức trên Chrome Web Store:
+Tampermonkey là tiện ích mở rộng an toàn và phổ biến nhất trên Chrome dùng để chạy công cụ này.
+1. Bấm vào đường link này để cài Tampermonkey từ Chrome Web Store:  
    https://chromewebstore.google.com/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo
-3. Bấm vào nút màu xanh "Thêm vào Chrome" (Add to Chrome), sau đó chọn "Thêm tiện ích" (Add extension).
-4. Khi thấy biểu tượng Tampermonkey xuất hiện ở góc trên bên phải thanh công cụ của trình duyệt là đã hoàn tất.
+2. Bấm vào nút màu xanh "Thêm vào Chrome" (Add to Chrome), sau đó bấm tiếp "Thêm tiện ích" (Add extension).
+3. Sau khi cài xong, bạn mở một tab mới trên Chrome, gõ vào thanh địa chỉ dòng này rồi bấm Enter:  
+   `chrome://extensions`
+4. Nhìn lên góc trên cùng bên phải màn hình, bạn tìm nút gạt có tên:  
+   "Chế độ dành cho nhà phát triển" (Developer mode).  
+   -> Hãy gạt nút đó sang BẬT (Màu xanh).  
+   (Lưu ý: Bắt buộc phải bật nút này thì Chrome mới cho phép Tampermonkey tự động cài đặt công cụ).
 
 ### Bước 2: Cài đặt công cụ Tự Động Đánh Giá
 1. Bấm trực tiếp vào đường dẫn cài đặt script:
